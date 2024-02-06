@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contract Application</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body> <script src="script.js"></script>
+  <h1>Contract Application</h1>
+  <form id="contractForm">
+    <label for="clientName">Client Name:</label>
+    <input type="text" id="clientName" required><br><br>
+    
+    <label for="startDate">Contract Start Date:</label>
+    <input type="date" id="startDate" required><br><br>
+    
+    <label for="endDate">Contract End Date:</label>
+    <input type="date" id="endDate" required><br><br>
+    
+    <label for="serviceCost">Service Cost:</label>
+    <input type="number" id="serviceCost" required><br><br>
+    
+    <label for="serviceDescription">Service Description:</label><br>
+    <textarea id="serviceDescription" rows="4" cols="50" required></textarea><br><br>
+    
+    <button type="submit">Generate Contract</button>
+  </form>
+  
+  <div id="contractOutput">
+    <!-- Contract template content will be dynamically generated here -->
+  </div>
+
+
+
+</body>
+</html>
